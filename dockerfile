@@ -1,0 +1,5 @@
+FROM modenaf360/gotty: latest
+# Expose the desired port
+EXPOSE 8080
+# Start Gotty with the specified command
+CMD ["gotty","","", "port", "8080", "/bin/bash"]
